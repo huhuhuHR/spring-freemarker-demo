@@ -1,0 +1,1 @@
+import com.huo.utils.DateUtils;import java.util.Date;public class TestDateUtils {    public static void main(String[] args) {        Date date = DateUtils.covertStringToDate("2018-07-11 11:05:06", null);        assert date != null;        assert "2018-07-11".equals(DateUtils.covertDateToString(date, null));    }}
